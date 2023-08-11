@@ -16,3 +16,21 @@
 // 4- Faça um update de um valor! Troque o valor do username para outro valor e depois dê um console.log(user); para ver se a propriedade realmente foi substituída.
 
 // 5- Remova um valor! Remova o valor age e depois dê um *console.log(user);* para ver se a propriedade realmente foi deletada.
+
+let user ={
+    username: "test",
+    email: "test@gmail.com",
+    age: 18,
+
+    login: function() {
+        console.log("Efetuou o login");
+    },
+    logout: function() {
+        console.log("Efetuou o logout")
+    },   
+}; 
+//user.username="Matias";
+//delete user.age;
+
+console.log(user)
+console.log(user.logout())

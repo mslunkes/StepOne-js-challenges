@@ -7,8 +7,22 @@
 // `Maria Silva` => `M.S.`
 // `Pedro Pedroso`  => `P.P`
 
-function abbrevName(firstName, lastName){
-	
 
-	return;
+function abbrevName(firstName, lastName){
+	if ( firstName = "Matias" ) {
+		return firstName.charAt(0) + "." + lastName.charAt(0) + ".";
+	}
+	return ;
+
+};
+
+console.log(abbrevName("Matias","Lunkes")) 
+
+//resolução da Saty
+/*function abbrevName(firstName, lastName){
+	console.log(firstName[0] + '.' + lastName[0] + '.')
+
+	return firstName [0];
 }
+abbrevName(Matias, Lunkes)
+*/
